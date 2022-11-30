@@ -32,4 +32,4 @@ A analize da wave form da simulacao pode ser vista com o comando:
 
 Todos os dumpfile seguem a seguinte forma de nomeacao: {testbenchName}.vcd
 
-A memoria de instrucoes padrao segue um loop de 18 instrucoes, realizando diferentes intrucoes disponiveis. Esta deve ser alterada para testar\realizar outras tarefas. O padrao das instrucoes esta disponivel no relatorio.
+A memoria de instrucoes padrao segue um loop de 18 instrucoes, realizando diferentes instrucoes disponiveis. Esta deve ser alterada para testar\realizar outras tarefas. O padrao das instrucoes esta disponivel no relatorio.
