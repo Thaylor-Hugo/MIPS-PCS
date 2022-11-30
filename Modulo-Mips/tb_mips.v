@@ -16,6 +16,9 @@ module tb_mips;
     mips mips (clock, reset, pc);
     initial begin
         /* Varia o reset para testar o processador. Com a waveform e possivel verificar se as instrucoes foram realizadas corretamente */
+        /* A memoria de instrucoes pode ser alterada para testar diferentes intrucoes */
+        /* Por padrao a memoria de instrucoes segue um loop que realiza ao menos uma vez a maior parte das instrucoes possiveis */
+
         reset = 1;
         #99;
         reset = 0;
