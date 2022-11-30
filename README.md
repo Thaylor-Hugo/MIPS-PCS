@@ -17,14 +17,19 @@ Cada modulo se mantem em um par com seus respectivos testbenchs nomeados da form
 As simulacoes foram feitas utilizando o programa Icarus Verilog
 
 Os arquivos foram compilados com o comando:
+    
     iverilog -o {customFilename} {nome do modulo}.v
+    
 Para a compilacao e necessario acrescentar todos os modulos utilizados, um par testbench + modulo. No caso do modulo mips, e necessario incluir alem do mips.v e do tb_mips.v todos os demais modulos, com excessao dos testbenchs.
 
 Para a execucao da simulacao foi utilizado o comando:
+    
     vvp {customFilename}
 
 A analize da wave form da simulacao pode ser vista com o comando:
+    
     gtkwave {nome do dumpfile}
+
 Todos os dumpfile seguem a seguinte forma de nomeacao: {testbenchName}.vcd
 
 A memoria de instrucoes padrao segue um loop de 18 instrucoes, realizando diferentes intrucoes disponiveis. Esta deve ser alterada para testar\realizar outras tarefas. O padrao das instrucoes esta disponivel no relatorio.
