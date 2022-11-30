@@ -15,6 +15,7 @@ Processador composto pelos modulos:
 Cada modulo se mantem em um par com seus respectivos testbenchs nomeados da forma tb_{nome-do-modulo}.v
 
 As simulacoes foram feitas utilizando o programa Icarus Verilog
+
 Os arquivos foram compilados com o comando:
     iverilog -o {customFilename} {nome do modulo}.v
 Para a compilacao e necessario acrescentar todos os modulos utilizados, um par testbench + modulo. No caso do modulo mips, e necessario incluir alem do mips.v e do tb_mips.v todos os demais modulos, com excessao dos testbenchs.
